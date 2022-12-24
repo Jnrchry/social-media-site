@@ -84,5 +84,32 @@
         }
       }
     }
+
+    .footerHr {
+      margin: 10px 0;
+    }
+
+    .postBottomFooter {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .postBottomFooterItem {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 7px;
+
+        .footerIcon {
+          color: #333;
+          font-size: 1.875rem;
+          margin-right: 10px;
+        }
+
+        .footerText {
+          font-weight: 600;
+        }
+      }
+    }
   }
 }

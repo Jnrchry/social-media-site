@@ -6,6 +6,7 @@ import {
   ChatBubbleOutline,
   FavoriteOutlined,
   MoreVert,
+  ShareOutlined,
   ThumbUp,
   ThumbUpAltOutlined,
 } from "@mui/icons-material";
@@ -70,8 +71,8 @@ const Post = ({ post }) => {
           </div>
 
           <div className="postBottomFooterItem">
-            <ThumbUpAltOutlined className="footerIcon" />
-            <span className="footerText">Like </span>
+            <ShareOutlined className="footerIcon" />
+            <span className="footerText">Share </span>
           </div>
         </div>
       </div>
