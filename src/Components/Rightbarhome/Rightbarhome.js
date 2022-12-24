@@ -16,7 +16,9 @@ const Rightbarhome = () => {
         </span>
       </div>
 
-      <img src="./assets/ads/adv.jpg" alt="" className="rightAdvert" />
+      <img src="./assets/ads/adv.jpg" alt="" className="rightbarAdvert" />
+
+      <span className="righbarTitle">Online Friends</span>
     </div>
   );
 };
